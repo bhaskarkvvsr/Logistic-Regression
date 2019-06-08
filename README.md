@@ -44,7 +44,10 @@ approximations. The starting point for parameters r, α, a, b can be taken as th
 
 The parameters tx and T have to be normalized before passing them to the function. For this, do the following:
 - Get the maximum value of T from the available values
-- Calculate the normalization factor by dividing 10.0 by the maximum value of T
-- Multiply every element in tx and T vector by this factor
+- Calculate the normalization factor by dividing 10.0 by the maximum value of T.
+- Multiply every element in tx and T vector by this factor.
+
 Also, the model parameter α has the same units like tx and T, so it also has to be multiplied by the normalization factor inside the objective function before any evaluations. To summarize, while calculating Eq. 2, use scaled α, tx and T values.
+
 Find the optimal values of r, α, a, b that minimize the objective function and define a strategy to check convergence from different starting points.
+
