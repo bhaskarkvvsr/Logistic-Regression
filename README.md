@@ -1,6 +1,6 @@
-# Solving an Optimization problem
+# Solving an Optimization problem using Python
 
-This is helpful to understand the way to write the code and optimise an objective function. This is one of the problem I have solved during an hackathon.
+This is helpful to understand the way to optimise an objective function in Python. This is one of the problems I have solved during an hackathon.
 
 A file all_transactions.csv has been provided that contains two fields:
 Customer ID, Date of Transaction (in format YYYYMMDD)
