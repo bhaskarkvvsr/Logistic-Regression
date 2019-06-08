@@ -1,4 +1,4 @@
-# Logistic-Regression
+# Solving an Optimization problem
 
 This is helpful to understand the way to write the code and optimise an objective function. This is one of the problem I have solved during an hackathon.
 
